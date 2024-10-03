@@ -1,0 +1,51 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1e1e1e;
+  padding: 16px;
+
+  ul {
+    list-style-type: none;
+    display: flex;
+    gap: 32px;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    display: inline-block;
+  }
+}
+
+.links {
+  display: flex;
+  align-items: center;
+}
+
+.link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 17.5px;
+  transition: color 0.1s ease-in-out; /* Animație la hover */
+}
+
+.navbar ul li a:hover {
+  color: #ff6347; /* Schimbă culoarea la hover */
+  border-bottom: 2px solid #ff6347; /* Linie sub link la hover */
+}
+
+.login {
+  color: #fff;
+  text-decoration: none;
+  font-size: 17.5px;
+  transition: color 0.3s ease-in-out;
+  border: 1px solid;
+  padding: 8px 40px;
+  border-radius: 20px;
+}
+
+.icon-theme {
+  margin-right: 60px;
+  cursor: pointer;
+}

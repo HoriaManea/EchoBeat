@@ -1,0 +1,28 @@
+.playlist {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  gap: 20px;
+
+  height: 500px;
+
+  // scrollbar
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #888 #f1f1f1;
+}
+
+.container-song {
+  text-align: center;
+
+  &:hover {
+    background-color: #b3b3b3;
+  }
+}
+
+.song-thumbnail {
+  width: 20px;
+  height: 20px;
+}
