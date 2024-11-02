@@ -1,0 +1,68 @@
+.auth-form {
+  width: 26.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.625rem;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(4px);
+  box-shadow: 0 0 0.625rem rgb(255, 255, 255, 0.2);
+  padding-bottom: 3.125rem;
+  padding-top: 3.125rem;
+  margin: 9.375rem auto; /* Centrarea verticală și orizontală */
+
+  h1 {
+    font-size: 2.25rem;
+    text-align: center;
+    margin-bottom: 1.25rem;
+  }
+
+  .input-container {
+    display: block;
+    margin-bottom: 0.625rem;
+    height: 3.125rem;
+    height: 3.125rem;
+    position: relative;
+  }
+
+  .input-container input {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border: 0.125rem solid rgba(255, 255, 255, 0.2);
+    border-radius: 2.5rem;
+    font-size: 1rem;
+    padding: 1.25rem 2.5rem 1.25rem 1.25rem;
+  }
+
+  .input-container input::placeholder {
+    color: #fff;
+  }
+
+  .remember-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 0.906rem;
+    margin-top: 1.25rem;
+  }
+
+  .btn {
+    height: 2.813rem;
+    padding: 0.938rem 3.125rem;
+    background-color: #58c4dc;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 2.5rem;
+    box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.1);
+    font-size: 1.125rem;
+    font-weight: 43.75rem;
+    cursor: pointer;
+    margin-top: 0.625rem;
+    margin-bottom: 1.25rem;
+  }
+}

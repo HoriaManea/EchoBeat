@@ -1,0 +1,31 @@
+.register-page {
+  background-color: #cb8686;
+  color: white;
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+
+  /* Icons */
+
+  .user-icon {
+    position: absolute;
+    margin-left: -2.188rem;
+    margin-top: 0.938rem;
+  }
+
+  .password-icon {
+    position: absolute;
+    margin-left: -2.188rem;
+    margin-top: 0.938rem;
+  }
+
+  #register-light {
+    color: white;
+  }
+
+  .password-icon {
+    color: white;
+  }
+
+  .register-link {
+    color: white;
+  }
+}

@@ -1,0 +1,26 @@
+Terminate:
+
+=> Am pus o listă cu cele mai populare cântece
+   Pentru crearea componentei MostPopular
+    - pentru aceasta componenta am creat alt DB, pentru ca am 
+        vrut sa creez un scrollbar, este vechiul db dar cu aceleasi
+        date copiate de 2 ori 
+    - este un container cu display: grid
+
+
+=> Am mărit contrastul la font față de background
+
+
+=> Am schimbat backgroundurile la regiunile importante ale paginii ca să poată fi distinse între ele
+
+=> De implementat toggle-ul de light/dark theme folosind Context Provider + useReducer
+    - Nu am folosit useReducer => il voi pune, am folosit doar ueContext
+    - Ca sa se poata schimba tema, am creat in 'app.scss' doua id, care se schimba pe cel mai sus container din aplicatie
+
+=> Să poată utilizatorul să controleze progress bar-ul, să pună slider-ul de unde vrea el să cânte melodia
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Neterminate:
+
+=> De implementat autentificare cu provider-ul de Facebook folosind Firebase
+

@@ -1,0 +1,52 @@
+.song-container {
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  .song-thumbnail {
+    width: 21.875rem;
+    height: 21.875rem;
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .song-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  h1 {
+    font-size: 1.75;
+    padding: 3rem 1rem 1rem 1rem;
+    color: #fff;
+  }
+
+  p {
+    font-size: 1.125rem;
+  }
+}
+
+/* Media queries for screen and paper sizes below 768px */
+@media all and (max-width: 767px) {
+  .song-container {
+    &,
+    h3 {
+      font-size: 1.5rem;
+    }
+  }
+}
+
+/* Media queries for screen sizesand paper between 768px and 1023px */
+@media all and (min-width: 768px) and (max-width: 1023px) {
+  .song-container {
+    &,
+    h3 {
+      font-size: 1.2rem;
+    }
+  }
+}

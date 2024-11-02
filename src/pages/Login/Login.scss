@@ -1,0 +1,58 @@
+.login-page {
+  background-color: #cb8686;
+
+  h1 {
+    font-size: 1.75rem;
+    color: #fff;
+  }
+
+  p {
+    font-size: 1.125rem;
+  }
+
+  .register-link {
+    font-size: 0.906rem;
+    text-align: center;
+    margin: 1.25rem 0 0.938rem;
+  }
+
+  .register-link p a:hover {
+    text-decoration: underline;
+  }
+
+  /* Icons */
+
+  .user-icon {
+    position: absolute;
+    margin-left: -35px;
+    margin-top: 15px;
+  }
+
+  .password-icon {
+    position: absolute;
+    margin-left: -2.188rem;
+    margin-top: 0.938rem;
+  }
+
+  .remember-container {
+    color: white;
+  }
+  .form-title {
+    font-size: 2.25rem;
+  }
+  .password-icon {
+    color: white;
+  }
+  .user-icon {
+    color: white;
+  }
+  .create-account {
+    color: white;
+  }
+  .register-link {
+    color: white;
+  }
+  .register-link:hover {
+    color: #58c4dc;
+  }
+}

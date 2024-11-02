@@ -1,0 +1,14 @@
+.play-song {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.25rem;
+
+  &__container {
+    flex: 1;
+
+    .play-song-details {
+      color: #fff;
+      padding: 4rem 2rem;
+    }
+  }
+}
