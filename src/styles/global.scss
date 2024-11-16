@@ -1,10 +1,10 @@
-@import './authentication.scss';
+@import "./authentication.scss";
 
 /**
  * FONTS
  */
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 /**
  * GENERAL STYLES
@@ -37,53 +37,33 @@ h3 {
 
   &.light {
     background-color: white;
-  
+    transition: 2s;
+
     color: black;
-  
+
     h1 {
       color: rgb(255, 255, 255);
       transition: 2s;
     }
-    transition: 2s;
-    
-    
-   
   }
-  
+
   &.dark {
     background-color: black;
     color: light;
+    transition: 2s;
+
     h1 {
       color: #fff;
-      transition: 2s;
     }
-    p {
-      color: white;
-    }
-    transition: 2s;
-    .play {
-      color: white;
-    }
-    .skip-forward {
-      color:white;
-    }
-    .skip-back { 
-      color: white;
-    }
-    .skip-twice {
-      color: white;
-    }
-    .back-twice {
-      color: white;
-    }
+
+    p,
+    .play,
+    .skip-forward,
+    .skip-back,
+    .skip-twice,
+    .back-twice,
     .user-icon {
       color: white;
     }
-    
-    
-    
-    
-    
-    
   }
 }
