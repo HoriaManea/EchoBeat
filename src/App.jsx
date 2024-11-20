@@ -21,15 +21,14 @@ function App() {
     <div className={`echo-beat ${theme}`}>
       <ThemeContext.Provider value={(theme, setTheme)}>
         <Router>
-          
-            <Navbar handleChangeTheme={handleChangeTheme} theme={theme} />
-            <Routes>
-              <Route path="/" element={<Home />} />
-              <Route path="/login" element={<Login />} />
-              <Route path="/register" element={<Register />} />
-              <Route path="/play-song" element={<PlaySong />} />
-              <Route path="/upload-song" element={<UploadSong />} />
-            </Routes>
+          <Navbar handleChangeTheme={handleChangeTheme} theme={theme} />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/login" element={<Login />} />
+            <Route path="/register" element={<Register />} />
+            <Route path="/play-song" element={<PlaySong />} />
+            <Route path="/upload-song" element={<UploadSong />} />
+          </Routes>
         </Router>
       </ThemeContext.Provider>
     </div>
